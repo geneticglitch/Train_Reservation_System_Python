@@ -9,7 +9,7 @@ try:
     cnx = pymysql.connect(
         host='localhost',
         user='root',
-        password='aryan2703',
+        password='PASSWORD',
     )
     cursor = cnx.cursor()
     time.sleep(1)
